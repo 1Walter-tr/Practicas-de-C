@@ -33,7 +33,7 @@ void ingresoDatos(){
   scanf("%d",&cantUnidades);
   printf("Ingrese el precio unitario: ");
   scanf("%f",&precioUnitario);
-  printf("Ingrese la fomra de pago (c-tarjeta de crédito / d-tarjeta de débito / e-efectivo): ");
+  printf("Ingrese la fomra de pago (c-tarjeta de credito / d-tarjeta de debito / e-efectivo): ");
   scanf(" %c",&formaPago);
 }
 
