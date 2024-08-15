@@ -18,8 +18,14 @@ void convertirMayusculas(){
     frase[i] = toupper(frase[i]);
   }
   longitud = strlen(frase);
-  printf("%s\n",frase);
-  printf("el titulo del trabajo tiene %d caracteres\n",longitud);
+  if(longitud > 20){
+    printf("%s\n",frase);
+    printf("La frase excede los 20 caracteres.\n");
+  }
+  else{
+    printf("%s",frase);
+  }
+
 }
 
 int main(){
