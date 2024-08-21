@@ -2,7 +2,7 @@
 mayúsculas. Recuerde que en ASCII las mayúsculas toman valores decimales comprendidos entre 65 y 
 90.*/
 
-/*isupper se encarga de encontrar un caracter en mayusculas*/
+/*isupper se encarga de encontrar un caracter en mayusculas en biblioteca ctype.h*/
 
 #include <stdio.h>
 #include <string.h>
@@ -23,7 +23,6 @@ void salidaDatos(){
     }
   }
   printf("La frase contiene %d letras mayusculas\n",contador);
-
 }
 
 
