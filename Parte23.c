@@ -1,3 +1,9 @@
+/*/*Declarar una estructura compuesta que permita modelar un registro de películas y series que serán 
+utilizados por NETFLIX para llevar el control sobre el interés de los clientes (No más de 7 campos). Luego:
+- Determinar el tipo y el tamaño de cada campo
+- Calcular la longitud del registro
+- Asignarle valores, y mostrar por pantalla.*/
+
 #include <stdio.h>
 #include <string.h>
 
